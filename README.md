@@ -12,4 +12,4 @@
 
 - For formatting the code inside `prisma/schema.prisma`, we can use: `npx prisma format`
 
-- After, we need to migrate the updated models using: `npx prisma migrate dev`
+- After, we need to migrate the updated models using: `npx prisma migrate dev` (we do this everytime any change is introduced to the database models)
